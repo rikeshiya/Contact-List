@@ -1,0 +1,59 @@
+/* contact-header */
+.contactheader {
+  text-align: center;
+  color: rgb(23, 33, 142);
+  margin: 0;
+}
+/* contact-header Hover*/
+.contactheader:hover {
+  border: 1px double mediumvioletred;
+}
+
+/* table td th border */
+table,
+td,
+th {
+  border: 2px solid rgb(1, 26, 26);
+  width: 42rem;
+  margin: auto;
+  color: rgba(35, 2, 2, 0.964);
+}
+/* input-container */
+.inputcontainer {
+  display: flex;
+  margin: 5px;
+  padding: 2px;
+  /* border: 1px solid green; */
+  justify-content: center;
+}
+/* input tag */
+input {
+  margin: 5px;
+}
+/* input-hover */
+.inputtag:hover {
+  color: rgb(12, 12, 160);
+  border: 2px solid rgb(0, 0, 0);
+}
+.addbtn {
+  color: rgb(16, 103, 16);
+}
+/* add-button hover */
+.addbtn:hover {
+  color: rgb(4, 56, 25);
+  box-shadow: 5px 5px 11px rgb(8, 61, 8);
+}
+/* delete-btn */
+.delete {
+  color: red;
+  background-color:black;
+}
+/* delete-btn Hover */
+.delete:hover {
+  color: white;
+  box-shadow: 5px 5px 10px rgb(179, 56, 95);
+}
+/* button */
+button {
+  color: rgb(15, 97, 97);
+}
